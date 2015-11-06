@@ -34,7 +34,7 @@
   "dependencies": {
     "alt": "^0.17.3",
     "babel": "^5.6.23",
-    "bestbuy": "0.0.4",
+    "bestbuy": "1.0.0",
     "express": "^4.13.3",
     "lodash": "^2.4.1",
     "react": "^0.13.3",

@@ -1,9 +1,9 @@
-import bby from 'bestbuy';
-
+import BBY from 'bestbuy';
+var bby;
 class WebApiUtils {
 	constructor(){
 		try {
-			bby.key = BBY_API_KEY;
+			bby = BBY(BBY_API_KEY);
 		}
 		catch(err){
 			//will catch on server since this is set in the template
@@ -14,15 +14,16 @@ class WebApiUtils {
 		if (!qs)
 			qs ={};
 		bby.products(search, qs, (err, data)=> {
-		    fn(data); 
+		  fn(data);
 		});
 	}
 
 	getCategories(search, qs, fn){
-		if (!qs)
+		if (!qs) {
 			qs ={};
+		}
 		bby.categories(search, qs, (err, data)=> {
-		    fn(data); 
+		  fn(data);
 		});
 	}
 }
