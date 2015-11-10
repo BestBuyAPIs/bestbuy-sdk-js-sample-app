@@ -37,10 +37,10 @@ export default class Paging extends Component {
 		if (this.props.pages.items)
 			pageSize = (this.props.pages.items.to - this.props.pages.items.from +1);
 
-		pageList.push(<span><a onClick={this.handleChange.bind(null, "first")}>First</a> | </span>);
-		pageList.push(<span><a onClick={this.handleChange.bind(null, "prev")}>Prev</a> | </span>);
-		pageList.push(<span><a onClick={this.handleChange.bind(null, "next")}>Next</a> | </span>);
-		pageList.push(<span><a onClick={this.handleChange.bind(null, "last")}>Last</a></span>);
+		pageList.push(<span key="firstPage"><a onClick={this.handleChange.bind(null, "first")}>First</a> | </span>);
+		pageList.push(<span key="prevPage"><a onClick={this.handleChange.bind(null, "prev")}>Prev</a> | </span>);
+		pageList.push(<span key="nextPage"><a onClick={this.handleChange.bind(null, "next")}>Next</a> | </span>);
+		pageList.push(<span key="lastPage"><a onClick={this.handleChange.bind(null, "last")}>Last</a></span>);
 
 		return (
 			<div>

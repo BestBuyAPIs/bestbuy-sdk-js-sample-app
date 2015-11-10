@@ -4,14 +4,11 @@
   "description": "Sample React, Flux, Node.js app using the Best Buy API.",
   "main": "server.js",
   "scripts": {
-    "postinstall": "npm run bower install",
+    "postinstall": "bower install",
     "start": "babel-node server.js",
     "watch": "nodemon --exec babel-node -- server.js",
     "test": "jasmine-node spec",
-    "gulp": "gulp",
-    "grunt": "grunt",
-    "nodemon": "nodemon",
-    "bower": "bower"
+    "nodemon": "nodemon"
   },
   "repository": {
     "type": "git",
@@ -52,16 +49,6 @@
     "grunt-contrib-less": "^1.0.1",
     "grunt-contrib-uglify": "^0.9.2",
     "grunt-contrib-watch": "^0.6.1",
-    "gulp": "^3.9.0",
-    "gulp-autoprefixer": "^3.0.2",
-    "gulp-concat": "^2.6.0",
-    "gulp-cssmin": "^0.1.7",
-    "gulp-if": "^1.2.5",
-    "gulp-less": "^3.0.3",
-    "gulp-plumber": "^1.0.1",
-    "gulp-streamify": "^1.0.2",
-    "gulp-uglify": "^1.4.1",
-    "gulp-util": "^3.0.6",
     "jasmine-node": "^1.14.5",
     "nodemon": "^1.7.1",
     "vinyl-source-stream": "^1.1.0",

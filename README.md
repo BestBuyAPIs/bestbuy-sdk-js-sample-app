@@ -7,31 +7,27 @@ This is a sample React, Flux, Node.js app using the Best Buy developer API.
 The package includes a sample React.js application using Flux architecture to demonstrate using the helper in a React-based web app served with Node.js.
 
 ## Getting Started
-This assumes the user already has a developer API Key from http://developer.bestbuy.com/ and configured for the environment. 
+ 1. Sign-up for a developer API Key at https://developer.bestbuy.com/
+ 2. Create an environment variable called BBY_API_KEY and set it equal to your developer API key. 
+ 3. Clone the repository.
+    `git clone https://github.com/BestBuyAPIs/bestbuy-sdk-js-sample-app.git`
+ 4. Install bower globally
+ 	`npm i bower -g`   
+ 5. Install grunt globally
+    `npm i grunt -g`
+ 6. Install the dependencies with:
+    `npm install`
 
-Clone the repository.
-
-    git clone https://github.com/BestBuyAPIs/bestbuy-sdk-js-sample-app.git
-
-Install the dependencies with:
-    
-    npm install
-
-***Many developers install gulp, grunt, bower, etc. globally. This package aliases the local node module to avoid problems when installing many global dependencies on CI servers, etc. In other words, to run this package, only running "npm install" is required. 
-  
+ 
 ## Run the React app
-Open a terminal to run the Grunt or Gulp tasks (we configured the project with both task runners) and enter either:
+ 1. Open a terminal to run the Grunt tasks
+    `grunt`
+ 2. Open another terminal and start the app with
+ 	`npm start`
+    	or and start the watch script which starts the server and also watches for code changes to trigger a rebuild
+    `npm run watch`
 
-    npm run gulp
-
- or
-     npm run grunt
-
-Open another terminal and start the watch script so you can immediately have code changes trigger a rebuild
-
-    npm run watch
-
-Once the app is running (the watch window will print "Express server listening on port 3001"), open up a web browser and navigate to localhost:3001
+Once the app is running (the window will print "Express server listening on port 3000"), open up a web browser and navigate to [http://localhost:3000](http://localhost:3000)
 
 ## Online Resources
 Best Buy Developer Portal: https://developer.bestbuy.com

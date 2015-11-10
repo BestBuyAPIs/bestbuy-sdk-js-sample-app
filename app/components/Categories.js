@@ -14,7 +14,7 @@ export default class Categories extends Component {
 
 	render(){
 		var options = [];
-		options.push(<option value="select">Select</option>);
+		options.push(<option value="select" key="default">Select</option>);
 		this.props.categories.forEach( (category)=> {
 			options.push(<option value={category.id} key={category.id}>{category.name}</option>);
 		});
