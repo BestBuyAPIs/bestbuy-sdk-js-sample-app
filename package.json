@@ -1,6 +1,6 @@
 {
   "name": "bestbuy-sample-node-app",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Sample React, Flux, Node.js app using the Best Buy API.",
   "main": "server.js",
   "scripts": {
