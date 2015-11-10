@@ -24,10 +24,10 @@ The package includes a sample React.js application using Flux architecture to de
     `grunt`
  2. Open another terminal and start the app with
  	`npm start`
-    	or and start the watch script which starts the server and also watches for code changes to trigger a rebuild
+    	or start the watch script which starts the server and also watches for code changes to trigger a rebuild
     `npm run watch`
 
-Once the app is running (the window will print "Express server listening on port 3000"), open up a web browser and navigate to [http://localhost:3000](http://localhost:3000)
+Once the app is running, the window will print "Express server listening on port 3000"; open up a web browser and navigate to [http://localhost:3000](http://localhost:3000).
 
 ## Online Resources
 Best Buy Developer Portal: https://developer.bestbuy.com
