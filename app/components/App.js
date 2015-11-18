@@ -1,7 +1,7 @@
-import React, {Component} from 'react';
+import React from 'react';
 import {RouteHandler} from 'react-router';
 
-export default class App extends Component {
+class App extends React.Component {
 	render() {
 		return (
 				<div>
@@ -10,3 +10,4 @@ export default class App extends Component {
 			);
 	}
 }
+module.exports = App;
