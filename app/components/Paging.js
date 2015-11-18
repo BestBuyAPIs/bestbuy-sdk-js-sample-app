@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 import ProductActions from '../actions/ProductsActions';
 
 
-export default class Paging extends Component {
+class Paging extends React.Component {
 
 	constructor(props){
 		super(props);
@@ -50,3 +50,4 @@ export default class Paging extends Component {
 			);
 	}
 }
+module.exports = Paging;

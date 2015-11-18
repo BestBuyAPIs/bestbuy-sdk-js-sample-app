@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Product from './Product';
 
-export default class ProductsTable extends Component {
+class ProductsTable extends React.Component {
 	
 	render(){		
 			var rows = [];
@@ -23,3 +23,4 @@ export default class ProductsTable extends Component {
 			);
 	}
 }
+module.exports = ProductsTable;

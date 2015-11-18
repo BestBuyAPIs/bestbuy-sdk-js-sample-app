@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 import ProductActions from '../actions/ProductsActions';
 
-export default class Categories extends Component {
+class Categories extends React.Component {
 	
 	contructor(){
 		this.state = 'select';
@@ -26,3 +26,4 @@ export default class Categories extends Component {
 			);
 	}
 }
+module.exports = Categories;

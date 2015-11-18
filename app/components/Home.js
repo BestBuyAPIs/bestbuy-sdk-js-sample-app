@@ -1,5 +1,5 @@
 //frameworks
-import React, {Component} from 'react';
+import React from 'react';
 //react components
 import ProductsTable from './ProductsTable';
 import Categories from './Categories';
@@ -12,7 +12,7 @@ import ProductsActions from '../actions/ProductsActions';
 import CategoriesActions from '../actions/CategoriesActions';   
 
 
-export default class Home extends Component {
+class Home extends React.Component {
 	constructor(props) {
 		super(props);
 		this.state = this.getStateFromStores();
@@ -62,3 +62,4 @@ export default class Home extends Component {
 		);
 	}
 }
+module.exports = Home;
