@@ -2,7 +2,7 @@
 This is a sample React, Flux, Node.js app using the Best Buy developer API. 
 
 [![Build status](https://img.shields.io/travis/BestBuyAPIs/bestbuy-sdk-js-sample-app.svg?style=flat-square)](https://travis-ci.org/BestBuyAPIs/bestbuy-sdk-js-sample-app)
-[![Dependency Status](https://david-dm.org/BestBuyAPIs/bestbuy-sdk-js-sample-pp.svg)](https://david-dm.org/BestBuyAPIs/bestbuy-sdk-js-sample-app)
+[![Dependency Status](https://david-dm.org/BestBuyAPIs/bestbuy-sdk-js-sample-app.svg)](https://david-dm.org/BestBuyAPIs/bestbuy-sdk-js-sample-app)
 
 The package includes a sample React.js application using Flux architecture to demonstrate using the helper in a React-based web app served with Node.js.
 
