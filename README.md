@@ -11,23 +11,21 @@ The package includes a sample React.js application using Flux architecture to de
  2. Create an environment variable called BBY_API_KEY and set it equal to your developer API key. 
  3. Clone the repository.
     `git clone https://github.com/BestBuyAPIs/bestbuy-sdk-js-sample-app.git`
- 4. Install bower globally
- 	`npm i bower -g`   
- 5. Install grunt globally
-    `npm i grunt -g`
- 6. Install the dependencies with:
+ 4. Install the dependencies with:
     `npm install`
 
  
 ## Run the React app
- 1. Open a terminal to run the Grunt tasks
-    `grunt`
- 2. Open another terminal and start the app with
+ 1. Open a terminal and start the app with
  	`npm start`
     	or start the watch script which starts the server and also watches for code changes to trigger a rebuild
     `npm run watch`
 
 Once the app is running, the window will print "Express server listening on port 3000"; open up a web browser and navigate to [http://localhost:3000](http://localhost:3000).
+
+## Testing
+1. Run the tests with 
+    `npm test`
 
 ## Online Resources
 Best Buy Developer Portal: https://developer.bestbuy.com
