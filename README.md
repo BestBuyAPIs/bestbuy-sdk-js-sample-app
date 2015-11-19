@@ -32,7 +32,7 @@ Once the app is running, the window will print "Express server listening on port
 ## Online Resources
 Best Buy Developer Portal: https://developer.bestbuy.com
 
-Best Buy API Query Builder: https://github.com/BestBuyAPIs/bby-sdk-js
+Best Buy API SDK for JavaScript: https://github.com/BestBuyAPIs/bby-sdk-js
 
 Best Buy API Query Builder: https://github.com/BestBuyAPIs/bby-query-builder
 
