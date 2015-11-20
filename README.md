@@ -13,7 +13,6 @@ The package includes a sample React.js application using Flux architecture to de
     `git clone https://github.com/BestBuyAPIs/bestbuy-sdk-js-sample-app.git`
  4. Install the dependencies with:
     `npm install`
-
  
 ## Run the React app
  1. Open a terminal and start the app with
